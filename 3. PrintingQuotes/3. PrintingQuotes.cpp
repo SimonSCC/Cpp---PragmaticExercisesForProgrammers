@@ -27,6 +27,7 @@ format in the example. An array of maps would be a
 good choice.*/
 #include <iostream>
 #include <string>
+#include <map>
 
 using namespace std;
 int main()
@@ -39,7 +40,20 @@ int main()
     cout << "Who said it?\n";
     getline(cin, author);
     cout << author << " says: " << R"(")" << quote << R"(")";
+
+    //https://www.geeksforgeeks.org/array-of-maps-in-c-with-examples/
+    cout << "Working with array of maps:\n\n";
+    map<string, string> arrOfMaps[3];
+    //Key is string in this case; "Guitar is good" is the key. Value is "Francisco Tarrega
+    arrOfMaps[0]["Guitar is good"] = "Francisco Tarrega";
+    arrOfMaps[0]["Guitar is bad!"] = "Francisco Tarrega";
+        
+    cout << arrOfMaps[0]["Guitar is good"];
 }
+
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
