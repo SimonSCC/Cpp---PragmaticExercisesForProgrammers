@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. CountingTheNumberOfChara
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2. CountingTheNumberOfCharactersGUI", "2. CountingTheNumberOfCharactersGUI\2. CountingTheNumberOfCharactersGUI.vcxproj", "{B8E23447-877D-4C27-ADB5-76E444317BF3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3. PrintingQuotes", "3. PrintingQuotes\3. PrintingQuotes.vcxproj", "{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{B8E23447-877D-4C27-ADB5-76E444317BF3}.Release|x64.Build.0 = Release|x64
 		{B8E23447-877D-4C27-ADB5-76E444317BF3}.Release|x86.ActiveCfg = Release|Win32
 		{B8E23447-877D-4C27-ADB5-76E444317BF3}.Release|x86.Build.0 = Release|Win32
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Debug|x64.ActiveCfg = Debug|x64
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Debug|x64.Build.0 = Debug|x64
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Debug|x86.Build.0 = Debug|Win32
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Release|x64.ActiveCfg = Release|x64
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Release|x64.Build.0 = Release|x64
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Release|x86.ActiveCfg = Release|Win32
+		{4427B924-ED1A-4C3E-B2CC-B9F9099242D2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
